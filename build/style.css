@@ -142,6 +142,9 @@ body {
   .box > * {
     padding: 8px; } }
 
+.header {
+  color: #1C75BC; }
+
 .fixed-top {
   position: fixed;
   top: 0;
@@ -154,46 +157,13 @@ body {
   .logo img {
     height: 100%; }
 
-a {
-  border-radius: 4px;
-  height: 48px;
-  width: 144px;
-  padding: 0 8px;
-  line-height: 18px;
-  font-size: 14px;
-  text-align: center;
-  color: #8f9192;
-  text-decoration: none;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; }
-
-a:hover, a:focus {
-  transform: translate(0, -1px);
-  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3); }
-
-a:active {
-  transform: translate(0, 1px);
-  box-shadow: none; }
-
 #navbarToggleExternalContent a {
   padding: 0 24px;
-  line-height: 48px;
   text-decoration: none;
-  color: #000000;
-  transition: background-color 0.5s ease; }
+  color: #000000; }
 
 #navbarToggleExternalContent a:hover, #navbarToggleExternalContent a:active, #navbarToggleExternalContent a:focus {
-  background-color: #1C75BC; }
-
-.menu-icon {
-  display: none;
-  padding: 12px;
-  cursor: pointer; }
-
-.menu-icon-bar {
-  width: 26px;
-  height: 2px;
-  background-color: #1C75BC;
-  margin: 5px 0; }
+  border-bottom: #1C75BC dotted; }
 
 @media only screen and (max-width: 900px) {
   .actions {
